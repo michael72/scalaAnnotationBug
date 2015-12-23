@@ -11,6 +11,7 @@ Due to the bug, the macro [annotations](https://github.com/michael72/scalaAnnota
 The [Sample code](https://github.com/michael72/scalaAnnotationBug/blob/master/bug/src/main/scala/AnnotationBug.scala) shows some of this different behavior. 
 
 The output of the program is:
+
     OK:   trait TestInnerDeclaredBefore - saved in current object: Some(List(anno))
     FAIL: trait TestInnerDeclaredBefore - saved to DeclaredBefore: None
 
